@@ -3,7 +3,7 @@ resource "aws_instance" "myEc2L" {
     
     instance_type = "t2.micro"
     tags = {
-      "Name" = "test"
+      "Name" = "ProdServer"
       "Env" = "dev"
     } 
 } 
